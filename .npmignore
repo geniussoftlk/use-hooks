@@ -1,0 +1,8 @@
+src/
+.prettierignore
+.prettierrc
+lint-staged-config.js
+tsconfig.json
+.eslintrc.json
+.eslintignore
+huskyrc.json
