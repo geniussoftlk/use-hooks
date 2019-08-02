@@ -15,7 +15,7 @@ yarn add @geniussoft/use-hooks
 
 Importing module to your project
 ```
-import useLocalStorage from '@geniussoft/use-hooks/useLocalStorage'
+import { useLocalStorage } from '@geniussoft/use-hooks'
 
 
 // Usage
