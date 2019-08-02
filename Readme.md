@@ -2,7 +2,8 @@
 
 Collection of reusable hooks gathered from useHooks.com and internet.
 
-
+## Requirement
+To use this collection, you must use react@16.8.0 or greater which includes Hooks.
 
 ## Install
 
