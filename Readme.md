@@ -7,14 +7,14 @@ Collection of reusable hooks gathered from useHooks.com and internet.
 ## Install
 
 ```
-yarn add @geniussoft/useHooks
+yarn add @geniussoft/use-hooks
 ```
 
 ## useLocalStorage
 
 Importing module to your project
 ```
-import useLocalStorage from '@geniussoft/useHooks/useLocalStorage'
+import useLocalStorage from '@geniussoft/use-hooks/useLocalStorage'
 
 
 // Usage
