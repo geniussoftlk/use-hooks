@@ -1,4 +1,4 @@
-import useHooks from './useLocalStorage';
+import useLocalStorage from './useLocalStorage';
 
 // eslint-disable-next-line import/prefer-default-export
-export { useHooks };
+export { useLocalStorage };
