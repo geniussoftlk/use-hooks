@@ -1,5 +1,10 @@
 # useHooks
 
+![npm](https://img.shields.io/npm/dm/@geniussoft/use-hooks?style=flat-square)
+![NPM](https://img.shields.io/npm/l/@geniussoft/use-hooks?style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@geniussoft/use-hooks?style=flat-square)
+![npm type definitions](https://img.shields.io/npm/types/@geniussoft/use-hooks?style=flat-square)
+
 Collection of reusable hooks gathered from useHooks.com and internet.
 
 ## Requirement
