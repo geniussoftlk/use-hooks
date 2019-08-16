@@ -36,3 +36,9 @@ const App=()=> {
 }
 
 ```
+
+---
+
+Project by [Genius Soft Pvt Ltd](http://www.officialgenius.com/).
+
+Maintained by [Chathu Vishwajith](https://github.com/iamchathu).
