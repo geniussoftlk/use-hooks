@@ -1,11 +1,11 @@
 {
   "name": "@geniussoft/use-hooks",
-  "version": "0.0.1-beta5",
+  "version": "0.0.1-beta6",
   "description": "Reusable React Hooks from useHooks.com and other online resources",
   "keywords": ["react","react hooks","useHooks","hooks","geniussoft"],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/geniussoftlk/useHooks.git",
+  "repository": "https://github.com/geniussoftlk/use-hooks.git",
   "author": "Chathu Vishwajith <iam@chathu.me>",
   "license": "MIT",
   "scripts": {
