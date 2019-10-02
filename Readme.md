@@ -46,7 +46,7 @@ const App = () => {
 Importing module to your project
 
 ```es6
-import { useLocalStorage } from '@geniussoft/use-hooks';
+import { useKeyPress } from '@geniussoft/use-hooks';
 ```
 
 Usage
