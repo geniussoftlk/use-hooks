@@ -22,25 +22,53 @@ yarn add @geniussoft/use-hooks
 
 Importing module to your project
 
+```es6
+import { useLocalStorage } from '@geniussoft/use-hooks';
 ```
-import { useLocalStorage } from '@geniussoft/use-hooks'
 
+Usage
 
-// Usage
-const App=()=> {
+```es6
+const App = () => {
     // Similar to useState but first arg is key to the value in local storage.
     const [name, setName] = useLocalStorage('name', 'Bob');
 
     return (
         <div>
-        <input
-        type= "text"
-    placeholder = "Enter your name"
-    value = { name }
-    onChange = { e => setName(e.target.value) }
-        />
+            <input type="text" placeholder="Enter your name" value={name} onChange={(e) => setName(e.target.value)} />
         </div>
-  );
+    );
+};
+```
+
+## useKeyPress
+
+Importing module to your project
+
+```es6
+import { useLocalStorage } from '@geniussoft/use-hooks';
+```
+
+Usage
+
+```es6
+const App=()=> {
+    // Call our hook for each key that we'd like to monitor
+    const happyPress = useKeyPress('h');
+    const sadPress = useKeyPress('s');
+    const robotPress = useKeyPress('r');
+    const foxPress = useKeyPress('f');
+
+  return (
+    <div>
+      <div>h, s, r, f</div>
+      <div>
+        {happyPress && '😊'}
+        {sadPress && '😢'}
+        {robotPress && '🤖'}
+        {foxPress && '🦊'}
+      </div>
+    </div>
 }
 
 ```
