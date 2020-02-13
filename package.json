@@ -1,6 +1,6 @@
 {
   "name": "@geniussoft/use-hooks",
-  "version": "0.0.2-beta2",
+  "version": "0.0.3",
   "description": "Reusable React Hooks from useHooks.com and other online resources",
   "keywords": [
     "react",
