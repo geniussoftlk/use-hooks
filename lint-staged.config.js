@@ -1,3 +1,3 @@
 module.exports = {
-  '**/+(src|test)/**/*.js': ['prettier --write', 'eslint --fix', 'git add'],
+    '**/+(src|test)/**/*.js': ['prettier --write', 'eslint --fix'],
 };
