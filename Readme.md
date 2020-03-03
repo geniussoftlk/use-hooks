@@ -73,6 +73,22 @@ const App=()=> {
 
 ```
 
+## useInterval
+
+Source from [Dan Dan Abramov's blog post](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
+
+Importing module to your project
+
+```es6
+import { useInterval } from '@geniussoft/use-hooks';
+```
+
+```es6
+useInterval(() => {
+    setTime(dateTime);
+}, 1000);
+```
+
 ---
 
 A Project by [Genius Soft Pvt Ltd](http://www.officialgenius.com/).

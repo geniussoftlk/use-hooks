@@ -88,4 +88,4 @@ typings/
 .dynamodb/
 
 # Distribution files
-dist/
+lib/
