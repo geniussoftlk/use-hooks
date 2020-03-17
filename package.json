@@ -1,6 +1,6 @@
 {
   "name": "@geniussoft/use-hooks",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Reusable React Hooks from useHooks.com and other online resources",
   "keywords": [
     "react",
@@ -23,20 +23,20 @@
     "lint": "eslint src --ext .ts"
   },
   "devDependencies": {
-    "@types/react": "^16.9.19",
-    "@typescript-eslint/eslint-plugin": "^2.19.2",
-    "@typescript-eslint/parser": "^2.19.2",
+    "@types/react": "^16.9.23",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
-    "lint-staged": "^10.0.7",
+    "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
-    "react": "^16.12.0",
-    "typescript": "^3.7.5"
+    "react": "^16.13.0",
+    "typescript": "^3.8.3"
   },
   "peerDependencies": {
     "react": "^16.8.0"
