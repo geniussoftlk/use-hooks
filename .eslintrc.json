@@ -32,7 +32,12 @@
                 "ts": "never",
                 "tsx": "never"
             }
-        ]
+        ],
+        "@typescript-eslint/no-explicit-any": "off",
+        "import/named": "off",
+        "import/namespace": "off",
+        "import/default": "off",
+        "import/no-named-as-default-member": "off"
     },
     "settings": {
         "import/parsers": {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 // Hook
-const useSessionStorage = (key: string, initialValue: string) => {
+const useSessionStorage = (key: string, initialValue: string): [string, Function] => {
     // State to store our value
     // Pass initial state function to useState so logic is only executed once
     const [storedValue, setStoredValue] = useState(() => {
