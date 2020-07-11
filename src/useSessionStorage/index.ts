@@ -7,9 +7,12 @@ const useSessionStorage = (key: string, initialValue: string): [string, Function
     const [storedValue, setStoredValue] = useState(() => {
         try {
             // Get from session storage by key
-            const item = window.sessionStorage.getItem(key);
+            if (window !== undefined) {
+                const item = window.sessionStorage.getItem(key);
+                return item ? JSON.parse(item) : initialValue;
+            }
             // Parse stored json or if none return initialValue
-            return item ? JSON.parse(item) : initialValue;
+            return initialValue;
         } catch (error) {
             // If error also return initialValue
             console.log(error);
@@ -26,7 +29,9 @@ const useSessionStorage = (key: string, initialValue: string): [string, Function
             // Save state
             setStoredValue(valueToStore);
             // Save to session storage
-            window.sessionStorage.setItem(key, JSON.stringify(valueToStore));
+            if (window !== undefined) {
+                window.sessionStorage.setItem(key, JSON.stringify(valueToStore));
+            }
         } catch (error) {
             // A more advanced implementation would handle the error case
             console.log(error);
